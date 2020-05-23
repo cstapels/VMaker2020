@@ -1,4 +1,4 @@
-covidChannelID = 898224;
+covidChannelID = 1066064;
 myData = thingSpeakRead(covidChannelID,'outputFormat','timetable','numDays',300);
 
 plot(myData.Timestamps,myData.USA,myData.Timestamps,...
