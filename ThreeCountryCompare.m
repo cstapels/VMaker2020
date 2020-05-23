@@ -1,6 +1,5 @@
 covidChannelID = 898224;
-myData = thingSpeakRead(covidChannelID, 'ReadKey',covidReadAPIKey,...
-    'outputFormat','timetable','numDays',300);
+myData = thingSpeakRead(covidChannelID,'outputFormat','timetable','numDays',300);
 
 plot(myData.Timestamps,myData.USA,myData.Timestamps,...
     myData.China,myData.Timestamps,myData.Spain);
